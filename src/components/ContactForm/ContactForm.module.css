@@ -1,0 +1,47 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .formField {
+    margin-bottom: 10px;
+  }
+  
+  .fielP {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .inputField {
+    min-width: 250px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .submitButton {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #0056b3;
+  }
+  .errorMessage {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
